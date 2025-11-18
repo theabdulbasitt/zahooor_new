@@ -1,6 +1,9 @@
+import { useState } from 'react';
 import './Gallery.css';
 
 function Gallery() {
+  const [selectedImage, setSelectedImage] = useState(null);
+
   const galleryItems = [
     { 
       id: 1, 
@@ -41,7 +44,7 @@ function Gallery() {
 
         <div className="gallery-grid">
           {galleryItems.map((item) => (
-            <div key={item.id} className="gallery-item">
+            <div key={item.id} className="gallery-item" onClick={() => setSelectedImage(item)}>
               <div className="gallery-image">
                 <img 
                   src={item.image} 
@@ -59,6 +62,19 @@ function Gallery() {
           ))}
         </div>
       </div>
+
+      {selectedImage && (
+        <div className="image-modal" onClick={() => setSelectedImage(null)}>
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <button className="modal-close" onClick={() => setSelectedImage(null)}>✕</button>
+            <img src={selectedImage.image} alt={selectedImage.title} className="modal-image" />
+            <div className="modal-info">
+              <h3 className="modal-title">{selectedImage.title}</h3>
+              <p className="modal-description">{selectedImage.description}</p>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

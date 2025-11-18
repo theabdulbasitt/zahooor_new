@@ -10,7 +10,9 @@ function Footer() {
       <div className="footer-container">
         <div className="footer-content">
           <div className="footer-brand">
-            <div className="footer-logo">DentalCare</div>
+            <div className="footer-logo">
+              <img src="/src/assets/logo_1.png" alt="DentalCare Logo" className="footer-logo-image" />
+            </div>
             <p className="footer-tagline">
               Your trusted partner for world-class dental care. We combine advanced 
               technology with personalized treatment for exceptional results.

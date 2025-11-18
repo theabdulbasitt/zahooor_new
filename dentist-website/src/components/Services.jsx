@@ -29,20 +29,6 @@ function Services() {
       title: 'Preventive Care',
       description: 'Maintain optimal oral health with regular checkups',
       features: ['Cleanings', 'Exams', 'X-Rays']
-    },
-    {
-      id: 5,
-      icon: '🔧',
-      title: 'Restorative',
-      description: 'Repair and restore damaged or decayed teeth',
-      features: ['Crowns & Bridges', 'Fillings', 'Root Canals']
-    },
-    {
-      id: 6,
-      icon: '⚡',
-      title: 'Emergency Care',
-      description: 'Same-day appointments for urgent dental needs',
-      features: ['Pain Relief', 'Broken Teeth', 'Urgent Care']
     }
   ];
 

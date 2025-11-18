@@ -33,22 +33,6 @@ function Shop() {
       image: 'https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=500&q=80',
       description: 'Complete oral hygiene solution',
       category: 'Bundles'
-    },
-    {
-      id: 5,
-      name: 'Night Guard',
-      price: 39.99,
-      image: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=500&q=80',
-      description: 'Custom-fit protection for teeth grinding',
-      category: 'Protection'
-    },
-    {
-      id: 6,
-      name: 'Fluoride Mouthwash',
-      price: 19.99,
-      image: 'https://images.unsplash.com/photo-1629909615957-be38b9e8e4c4?w=500&q=80',
-      description: 'Strengthens enamel and freshens breath',
-      category: 'Oral Care'
     }
   ];
 
