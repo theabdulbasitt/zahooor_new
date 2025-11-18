@@ -65,12 +65,18 @@
 .location-tab:hover {
   background: rgba(255, 255, 255, 0.08);
   color: #fff;
+  transform: translateY(-2px);
 }
 
 .location-tab.active {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   border-color: transparent;
   color: #fff;
+  transform: scale(1.05);
+}
+
+.location-tab:active {
+  transform: scale(0.98);
 }
 
 .location-content {
@@ -82,6 +88,7 @@
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 20px;
   padding: 1.5rem;
+  animation: fadeInUp 0.5s ease;
 }
 
 .location-details {

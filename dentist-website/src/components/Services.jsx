@@ -29,6 +29,34 @@ function Services() {
       title: 'Preventive Care',
       description: 'Maintain optimal oral health with regular checkups',
       features: ['Cleanings', 'Exams', 'X-Rays']
+    },
+    {
+      id: 5,
+      icon: '👑',
+      title: 'Crowns & Bridges',
+      description: 'Restore damaged teeth with custom crowns',
+      features: ['Porcelain Crowns', 'Dental Bridges', 'Same-Day Crowns']
+    },
+    {
+      id: 6,
+      icon: '🩺',
+      title: 'Root Canal',
+      description: 'Save infected teeth with gentle treatment',
+      features: ['Endodontic Therapy', 'Pain Relief', 'Tooth Preservation']
+    },
+    {
+      id: 7,
+      icon: '💎',
+      title: 'Teeth Whitening',
+      description: 'Professional whitening for a brighter smile',
+      features: ['In-Office Whitening', 'Take-Home Kits', 'Laser Whitening']
+    },
+    {
+      id: 8,
+      icon: '🦴',
+      title: 'Oral Surgery',
+      description: 'Expert surgical procedures and extractions',
+      features: ['Wisdom Teeth', 'Extractions', 'Bone Grafting']
     }
   ];
 

@@ -92,11 +92,26 @@
   border: none;
   text-align: left;
   padding: 0;
+  position: relative;
+  padding-left: 0;
+}
+
+.footer-link::before {
+  content: '→';
+  position: absolute;
+  left: -20px;
+  opacity: 0;
+  transition: all 0.3s ease;
 }
 
 .footer-link:hover {
   color: #667eea;
-  transform: translateX(5px);
+  transform: translateX(8px);
+}
+
+.footer-link:hover::before {
+  opacity: 1;
+  left: -15px;
 }
 
 .footer-contact-item {
