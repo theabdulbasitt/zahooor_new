@@ -46,22 +46,12 @@ function Footer() {
             <div className="footer-links">
               <button onClick={() => scrollToSection('home')} className="footer-link">Home</button>
               <button onClick={() => scrollToSection('about')} className="footer-link">About Us</button>
-              <button onClick={() => scrollToSection('services')} className="footer-link">Services</button>
               <button onClick={() => scrollToSection('cases')} className="footer-link">Cases</button>
               <button onClick={() => scrollToSection('shop')} className="footer-link">Shop</button>
             </div>
           </div>
 
-          <div className="footer-section">
-            <h4 className="footer-title">Services</h4>
-            <div className="footer-links">
-              <a href="#" className="footer-link">Cosmetic Dentistry</a>
-              <a href="#" className="footer-link">Dental Implants</a>
-              <a href="#" className="footer-link">Orthodontics</a>
-              <a href="#" className="footer-link">Preventive Care</a>
-              <a href="#" className="footer-link">Emergency Care</a>
-            </div>
-          </div>
+
 
           <div className="footer-section">
             <h4 className="footer-title">Contact Info</h4>

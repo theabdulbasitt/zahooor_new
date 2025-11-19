@@ -18,7 +18,7 @@ function App() {
     setMenuOpen(false);
     document.getElementById(section)?.scrollIntoView({ behavior: 'smooth' });
   };
-
+// hello
   return (
     <div className="app">
       <nav className="navbar">
