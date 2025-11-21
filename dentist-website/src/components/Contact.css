@@ -40,55 +40,29 @@
   font-size: 1.8rem;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
-.location-tabs {
-  display: flex;
-  justify-content: center;
-  gap: 0.8rem;
-  margin-bottom: 1.5rem;
-}
-
-.location-tab {
-  padding: 0.8rem 1.6rem;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 12px;
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 0.95rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.location-tab:hover {
-  background: rgba(255, 255, 255, 0.08);
-  color: #fff;
-  transform: translateY(-2px);
-}
-
-.location-tab.active {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  border-color: transparent;
-  color: #fff;
-  transform: scale(1.05);
-}
-
-.location-tab:active {
-  transform: scale(0.98);
-}
-
-.location-content {
+.locations-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1.5rem;
+  gap: 2rem;
+  animation: fadeInUp 0.5s ease;
+}
+
+.location-card {
   background: rgba(255, 255, 255, 0.03);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 20px;
   padding: 1.5rem;
-  animation: fadeInUp 0.5s ease;
+  transition: all 0.3s ease;
+}
+
+.location-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.2);
 }
 
 .location-details {
@@ -238,8 +212,12 @@
 }
 
 @media (max-width: 1024px) {
-  .location-content {
-    gap: 1.2rem;
+  .locations-grid {
+    gap: 1.5rem;
+  }
+
+  .location-card {
+    padding: 1.2rem;
   }
 
   .map-container {
@@ -260,18 +238,12 @@
     font-size: 1.5rem;
   }
 
-  .location-tabs {
-    flex-direction: row;
-    gap: 0.6rem;
-  }
-
-  .location-tab {
-    padding: 0.7rem 1.2rem;
-    font-size: 0.85rem;
-  }
-
-  .location-content {
+  .locations-grid {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .location-card {
     padding: 1.2rem;
   }
 
@@ -281,7 +253,6 @@
 
   .map-container {
     height: 250px;
-    order: -1;
   }
 
   .form-title {
@@ -313,16 +284,11 @@
     margin-bottom: 3rem;
   }
 
-  .location-tabs {
-    flex-direction: column;
+  .locations-grid {
+    gap: 1.2rem;
   }
 
-  .location-tab {
-    width: 100%;
-    justify-content: center;
-  }
-
-  .location-content {
+  .location-card {
     padding: 1rem;
   }
 

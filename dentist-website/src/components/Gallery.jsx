@@ -7,27 +7,15 @@ function Gallery() {
   const galleryItems = [
     { 
       id: 1, 
-      title: 'Modern Reception Area', 
-      description: 'Welcoming entrance and waiting lounge',
-      image: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&q=80'
+      title: 'Our Clinic', 
+      description: 'Modern dental care facility',
+      image: '/src/assets/clinic_1.jpeg'
     },
     { 
       id: 2, 
-      title: 'Advanced Treatment Room', 
-      description: 'State-of-the-art dental equipment',
-      image: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=800&q=80'
-    },
-    { 
-      id: 3, 
-      title: 'Professional Team', 
-      description: 'Expert dental care providers',
-      image: 'https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=800&q=80'
-    },
-    { 
-      id: 4, 
-      title: 'Consultation Room', 
-      description: 'Comfortable patient discussions',
-      image: 'https://images.unsplash.com/photo-1629909615957-be38b9e8e4c4?w=800&q=80'
+      title: 'Our Clinic', 
+      description: 'Professional treatment environment',
+      image: '/src/assets/clinic_2.jpeg'
     }
   ];
 
