@@ -9,13 +9,43 @@ function Gallery() {
       id: 1, 
       title: 'Our Clinic', 
       description: 'Modern dental care facility',
-      image: '/src/assets/clinic_1.jpeg'
+      image: '/1.jpeg'
     },
     { 
       id: 2, 
       title: 'Our Clinic', 
       description: 'Professional treatment environment',
-      image: '/src/assets/clinic_2.jpeg'
+      image: '/2.jpeg'
+    },
+    { 
+      id: 3, 
+      title: 'Our Clinic', 
+      description: 'State-of-the-art equipment',
+      image: '/3.jpeg'
+    },
+    { 
+      id: 4, 
+      title: 'Our Clinic', 
+      description: 'Comfortable patient care',
+      image: '/4.jpeg'
+    },
+    { 
+      id: 5, 
+      title: 'Our Clinic', 
+      description: 'Advanced dental technology',
+      image: '/5.jpeg'
+    },
+    { 
+      id: 6, 
+      title: 'Our Clinic', 
+      description: 'Welcoming atmosphere',
+      image: '/6.jpeg'
+    },
+    { 
+      id: 7, 
+      title: 'Our Clinic', 
+      description: 'Expert dental care',
+      image: '/7.jpeg'
     }
   ];
 

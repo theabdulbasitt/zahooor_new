@@ -24,7 +24,7 @@ function App() {
       <nav className="navbar">
         <div className="nav-container">
           <div className="logo">
-            <img src="/src/assets/logo_1.png" alt="DentalCare Logo" className="logo-image" />
+            <img src="/logo_1.png" alt="DentalCare Logo" className="logo-image" />
           </div>
           <button className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>
             <span className={menuOpen ? 'open' : ''}></span>
